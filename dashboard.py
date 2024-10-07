@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Read CSV files
-day_df = pd.read_csv("data/day.csv", index_col="instant", parse_dates=["dteday"])
-hour_df = pd.read_csv("data/hour.csv", index_col="instant", parse_dates=["dteday"])
+day_df = pd.read_csv("day.csv", index_col="instant", parse_dates=["dteday"])
+hour_df = pd.read_csv("hour.csv", index_col="instant", parse_dates=["dteday"])
 
 # Dashboard Title
 st.title('Dashboard Analisis Data Sepeda')
